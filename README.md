@@ -1,1 +1,2 @@
 # casting_device_web_server
+This is a proof of concept that is displaying to the chromecast device the images hosted by the device. Since chromecast doesn't accept to broadcast media items from device (even if someone encodes images with base64 and send by text is a valid practice). The device is implementing a light webserver to expose the images hosted in the sd card. Then the chromecast opens the local server like a regular browser.
